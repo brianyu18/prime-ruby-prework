@@ -5,6 +5,7 @@ def prime?(num)
   else
     (2...num).each do |check|
       if num % check == 0
+        puts
         return false
       end
       return true
